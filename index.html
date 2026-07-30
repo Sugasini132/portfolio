@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sugasini D | Portfolio</title>
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- YOUR CSS -->
+  <link rel="stylesheet" href="style.css?v=12">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+  <div class="logo">
+    <span>ds</span>
+  </div>
+
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+
+  <!-- NAV LINKS -->
+  <nav id="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+</header>
+
+<!-- HERO -->
+<section class="hero fade-left" id="about">
+  <h1>Hi, I'm <span>Sugasini</span></h1>
+  <h2>Artificial Intelligence & Data Science</h2>
+
+  <p>
+    A curious and growth-driven individual with a strong passion for learning and self-improvement.
+    Focused on building intelligent solutions using Machine Learning and Computer Vision.
+    Believes in consistency and adaptability while striving to create meaningful impact.
+  </p>
+
+  <a href="resume.pdf" class="btn">My Resume</a>
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="fade-left">
+  <h2 class="title">My Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+      <p>Java</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+      <p>Python</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4149/4149678.png">
+      <p>Machine Learning</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712100.png">
+      <p>Computer Vision</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+      <p>HTML</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+      <p>CSS</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721265.png">
+      <p>DSA (Learning)</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="fade-left">
+  <h2 class="title">Projects</h2>
+
+  <div class="project">
+    <h3>🚀 Real-Time Object Detection</h3>
+    <p>
+      Built a real-time object detection system using deep learning and computer vision techniques.
+      Capable of identifying and tracking multiple objects from live video streams with high accuracy.
+      Optimized for fast performance and real-world applications.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>🚀 Real-Time Face Mesh</h3>
+    <p>
+      Developed a real-time face mesh system to detect and track facial landmarks with precision.
+      Used advanced models to map facial structures dynamically.
+      Useful for AR and face-based applications.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>🚀 Helmet & Number Plate Detection System</h3>
+    <p>
+      Developed a real-time helmet and number plate detection system for intelligent traffic monitoring.
+      Used computer vision and YOLOv8 models to detect riders with and without helmets accurately.
+      Integrated live video detection, rider tracking, and automatic number plate extraction.
+      Improved traffic violation detection through real-time monitoring and automated evidence saving.
+    </p>
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="title center">Let's Talk</h2>
+
+  <div class="contact-wrapper">
+
+    <!-- LINKEDIN -->
+    <a href="https://www.linkedin.com/in/sugasini-d-0a57072a5" target="_blank" class="contact-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png">
+      <span>LinkedIn</span>
+    </a>
+
+    <!-- EMAIL -->
+    <a href="mailto:sugasini.d05@gmail.com" class="contact-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732223.png">
+      <span>sugasini.d05@gmail.com</span>
+    </a>
+
+  </div>
+</section>
+
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.getElementById("nav-links");
+
+  toggle.onclick = () => {
+    nav.classList.toggle("active");
+  };
+</script>
+
+</body>
+</html>
